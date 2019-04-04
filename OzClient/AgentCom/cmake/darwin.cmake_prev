@@ -1,0 +1,5 @@
+add_definitions(-DDarwin)
+add_definitions(-mmacosx-version-min=10.2)
+SET(CMAKE_CXX_LINK_EXECUTABLE "${CMAKE_CXX_LINK_EXECUTABLE} -mmacosx-version-min=10.2")
+SET(CMAKE_C_LINK_EXECUTABLE "${CMAKE_C_LINK_EXECUTABLE} -mmacosx-version-min=10.2")
+SET(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -mmacosx-version-min=10.2")

@@ -1,0 +1,2 @@
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -arch armv7")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -arch armv7")
