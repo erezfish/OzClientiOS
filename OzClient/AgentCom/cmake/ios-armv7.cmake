@@ -6,20 +6,16 @@ set (CMAKE_SYSTEM_NAME iOS)
 # set (IOS_SDK_VER 8.1) AMIR
 set (IOS_SDK_VER 10.0)
 
-# for building the x86_64 arch
-set (IOS_SYS_ROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk)
-SET(TOOLCHAIN_PREFIX /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/)
-
 # for rest of archs
-#set (IOS_SYS_ROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk)
-#SET(TOOLCHAIN_PREFIX /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/)
+set (IOS_SYS_ROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk)
+SET(TOOLCHAIN_PREFIX /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/)
 
 #SET(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}gcc)
 #SET(CMAKE_CXX_COMPILER ${TOOLCHAIN_PREFIX}g++)
 
 # TODO: parametrize sdk ver
 #
-SET(FLAGS "-O -DNABTO_IOS -DDarwin -fPIC -arch x86_64  -miphoneos-version-min=${IOS_SDK_VER} -isysroot ${IOS_SYS_ROOT}" )
+SET(FLAGS "-O -DNABTO_IOS -DDarwin -fPIC -arch armv7  -miphoneos-version-min=${IOS_SDK_VER} -isysroot ${IOS_SYS_ROOT}" )
 SET(COMPILE_FLAGS ${FLAGS})
 SET(CC xcrun)
 

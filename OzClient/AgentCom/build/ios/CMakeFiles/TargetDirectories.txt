@@ -1,0 +1,13 @@
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/install/local.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/install/strip.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/install.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/list_install_components.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/rebuild_cache.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/CMakeFiles/edit_cache.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/install/local.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/install/strip.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/install.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/list_install_components.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/OzClient.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/rebuild_cache.dir
+/Users/embedded/Bench/OzProject/OzClient/AgentCom/build/ios/OzAgent/CMakeFiles/edit_cache.dir

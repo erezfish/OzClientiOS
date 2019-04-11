@@ -6,7 +6,12 @@
 extern "C" {
 #endif
 
-#if 0//defined (MODEL_linux)
+//TODO currently always use this code over propriatry code.
+// The code under else is broken (not working for 64/32 archs), and should not be used.
+// if there are errors in linking please find the appropriate libssl.so and headers fit to your toolchain. 
+#define MODEL_linux 1
+
+#if defined (MODEL_linux)
 
 	#include <openssl/evp.h>
 	#include <openssl/sha.h>
@@ -31,6 +36,7 @@ extern "C" {
 	}
 
 #else
+//This code should never be used (Erez F.)
 
 // Signed variables are for wimps 
 #define uchar unsigned char // 8-bit byte
